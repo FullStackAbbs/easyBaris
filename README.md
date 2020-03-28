@@ -6,7 +6,7 @@ Javascript
 *MongoDB*
 
 # Optimizations 
-Optimizations would include a field for users to shorthand track their emotions by the press of a single button.
+Optimizations would include a field for input that correlate directly to the menu to make the recording of orders a much faster process, essentially going from input/text to input/dropdown-options.
 
 # Lesson Learned:
 * how to connect to an external server
