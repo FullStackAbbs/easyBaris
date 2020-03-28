@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <title>easyBaris</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="jumbotron text-center" id="box1">
+
+      <form action="/messages" method="post">
+        <input type="text" placeholder="Customer Name" name="customer" >
+        <input type="text" placeholder="Order Detail" name="order" >
+        <button type="submit"> PUSH ORDER TO LINE</button>
+      </form>
+
+
+        <p id=hide>Login or Signup:</p>
+
+        <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
+        <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a>
+
+    </div>
+
+</div>
+  <script src="main.js"></script>
+</body>
+</html>

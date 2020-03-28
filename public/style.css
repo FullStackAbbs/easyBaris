@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  color:white;
+  text-align:center;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size:10px;
+  background: url("./img/coffeeBEAN.png" )left top / cover repeat
+}
+img{
+  height: 200px;
+}
+
+ul{
+  list-style-type:none;
+}
+
+li,label,p{
+  margin:2%;
+  font-size: 2.5rem;
+
+}
+h3{
+  font-size: 3rem;
+  font-family: 'Baloo Thambi 2', cursive;
+text-decoration: underline;
+}
+h1,p,h2,h4{
+  font-family: 'Baloo Thambi 2', cursive;
+
+}
+section{
+  border: 2px solid black;
+  display: block;
+  float: left;
+  width: 50%;
+  background-color: black;
+  border-radius: 35%;
+}
+
+#hide{
+  display: none;
+}
+
+#box1{
+  margin-top: 15%;
+}
